@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 100vh;
+
+}
+.bg-image{
+    background-image: url('./image/rolf-schmidbauer-ZGa149s0DQQ-unsplash.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+    filter: blur(8px);
+    z-index: -1;  
+    width: calc(100vw + 80px);
+    height: calc(100vh + 60px);
+    top: -60px;
+    left: -60px; 
+    
+}
+img{
+    /* width: 100%;
+    height: 100vh;
+     */
+}
+.count{
+    font-size: 3rem;
+    color: aliceblue;
+    position: absolute;
+
+}
